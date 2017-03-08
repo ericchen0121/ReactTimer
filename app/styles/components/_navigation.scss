@@ -2,11 +2,20 @@
   background-color: $nav-background;
 }
 
-.top-bar .menu-text {
-  color: $nav-text-color;
-}
+.top-bar  {
 
-.menu>li>a {
-  display: inline;
-  padding: 0;
+  .menu-text {
+    color: $nav-text-color;
+    font-weight: normal;
+  }
+
+  .menu>li>a {
+    display: inline;
+    padding: 0;
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
+
 }
