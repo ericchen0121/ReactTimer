@@ -36,6 +36,11 @@ var Countdown = React.createClass({
       this.setState({
         count: (newCount >= 0) ? newCount : 0 // don't set count to a negative!
       })
+
+      if (newCount === 0) {
+        this.setState({countdownStatus: 'stopped'})
+      }
+
     }, 1000);
   },
 
