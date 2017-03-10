@@ -17,7 +17,7 @@ var CountdownForm = React.createClass({
     _isValidStringOfNumbers: function(str) {
       return (str).match(/^[0-9]*$/);
     },
-    
+
     render: function() {
       return (
         <div>

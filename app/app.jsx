@@ -8,7 +8,6 @@ var Timer = require('Timer');
 // Load foundation
 // require doesn't know how to load a css file, so need css loader 'css!'
 // still need to inject css into html with 'style!' style loader
-require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
 // app css
